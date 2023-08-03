@@ -1,0 +1,61 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    /* display: flex;
+    justify-content: space-between;
+    align-content: center; */
+}
+.subContenedor{
+
+/*     
+    background-image:  linear-gradient( #11862b,  #45fa1800);
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center; */
+
+    top: 35%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.subContenedor2{
+    top: 62%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.image{
+    width: 45%;
+    height: 45%;
+}
+
+
+.pruebaBoton{
+    width: 4cm;
+    height:max-content;
+    cursor: pointer;
+    font-family:'tackyshoesDEMO';
+    font-size:larger;
+   
+}
+@font-face {
+    font-family: "tackyshoesDEMO";
+    src: url(../../assets/fonts/tackyshoesDEMO.otf);
+}
+

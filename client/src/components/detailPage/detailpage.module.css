@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fdddca;
+    border: 5px solid #eadfd0;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+  }
+
+.imagen {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.prueba{
+    height:1.78cm;
+    background-image: url('../../assets/wallPaperFood.jpg');
+}
+
+.tamaNio{
+    width: min-content;
+    height: min-content;
+}

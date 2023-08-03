@@ -1,0 +1,29 @@
+.contenedor{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.subContenedor{
+    background-color: antiquewhite;
+}
+
+.navBar{
+    height:1.78cm;
+    background-image: url(../../assets/wallPaperFood.jpg);
+}
+
+.imgFondo{
+    width: 50%;
+    height: 50%;
+}
+
+.imgNav{
+    width: 15%;
+}
+
+.imgSpoon{
+    width: 10%;
+}

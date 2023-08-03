@@ -1,0 +1,49 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    /* background-color:#FFC300; */
+}
+
+.subContenedor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    border-top: 2px solid var(--cnegro);
+    max-width: fit-content;
+    padding: 30px 50px;
+    margin: auto;
+    margin-top: 10px;
+    background-color:cornflowerblue;
+}
+
+
+.pruebaI{
+    /* width: fit-content;
+    height: fit-content; */
+    width: auto;
+    height: auto;
+}
+
+.resumen{
+    width: auto;
+    height: 3cm;
+}
+
+.boton{
+    width: fit-content;
+    height: fit-content;
+}
+
+.nav{
+    height:1.78cm;
+    background-image: url('../../assets/wallPaperFood.jpg');
+}
+
+
+.probandoCheckBOX{
+    border: 2px crimson;
+}
