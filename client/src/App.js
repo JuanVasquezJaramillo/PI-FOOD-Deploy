@@ -6,7 +6,7 @@ import Form from './components/formPage/formPage';
 import Detail from './components/detailPage/detailPage'
 import About from './components/aboutPage/about';
 import { Route, Routes} from 'react-router-dom';
-axios.defaults.baseURL = "http://localhost:3001"
+axios.defaults.baseURL = "https://pi-food-deploy-production-b499.up.railway.app/"
 
 function App() {
   return (
