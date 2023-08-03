@@ -3,7 +3,7 @@ import axios from "axios";
 //METODOS GET 
 export const getRecipes = () => {
     return async (dispatch) => {
-        const response = (await axios.get("http://localhost:3001/recipes")); //console.log("DESDE", json.data.response);
+        const response = (await axios.get("/recipes")); //console.log("DESDE", json.data.response);
         return dispatch({
             type: "GET_RECIPES",
             payload: response.data,
@@ -14,7 +14,7 @@ export const getRecipes = () => {
 export const getRecipesByName = (recipe) => {
     return async (dispatch) => {
         try {
-            let response = (await axios.get(`http://localhost:3001/recipes/name?name=${recipe}`))
+            let response = (await axios.get(`/recipes/name?name=${recipe}`))
             return dispatch({
                 type: "GET_NAME_RECIPE",
                 payload: response.data
@@ -31,7 +31,7 @@ export const getRecipesByName = (recipe) => {
 
 export const getDiets = () => async (dispatch) => {
     try {
-        const response = (await axios.get(`http://localhost:3001/diets`))
+        const response = (await axios.get(`/diets`))
         return dispatch({
             type: "GET_DIETS",
             payload: response.data
@@ -43,7 +43,7 @@ export const getDiets = () => async (dispatch) => {
 
 export const getRecipesBD = () => {
     return async (dispatch) => {
-        const response = (await axios.get("http://localhost:3001/recipesBD")); //console.log("DESDE", json.data.response);
+        const response = (await axios.get("/recipesBD")); //console.log("DESDE", json.data.response);
         return dispatch({
             type: "GET_RECIPES_BD",
             payload: response.data,
@@ -66,7 +66,7 @@ export const getRecipesBD = () => {
 //METODO POST
 export const postRecipe = (recipe) => async (dispatch) => {
     try {
-        const response = await axios.post(`http://localhost:3001/recipes`, recipe)
+        const response = await axios.post(`/recipes`, recipe)
         return dispatch({
             type: "POST_RECIPE",
             payload: response
